@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-bluetoothrelay",
+  "version": "0.0.1",
+  "description": "Create a HomeKit hub that uses Bluetooth to communicate with your Arduino relay devices.",
+  "main": "homebridge-bluetoothrelay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Kashuba & Brandon Martin",
+  "license": "ISC",
+  "dependencies": {
+    "bluetooth-serial-port": "^2.1.0",
+    "request": "^2.79.0"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ]
+}
